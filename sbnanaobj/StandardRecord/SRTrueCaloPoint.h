@@ -16,6 +16,8 @@ namespace caf
 
       float h_nelec; //!< Charge / number of electrons by hit
       float h_e; //!< Energy by hit [MeV]
+      float h_nelec_sed; //!< Charge / number of electrons by hit at deposit using SimEnergyDeposit (sed)
+      float h_e_sed; //!< Energy by hit [MeV] at deposit using SimEnergyDeposit (sed)
       float p_nelec; //!< Charge / number of electrons by particle
       float p_e; //!< Energy by particle [MeV]
       float x; //!< X-Position of deposition by particle [cm]
